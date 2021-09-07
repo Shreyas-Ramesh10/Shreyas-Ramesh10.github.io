@@ -112,8 +112,8 @@ p{
   opacity: 0.3;
   z-index:-1;
   position: absolute;
-  top:2600px;
-  right:400px;
+  left:390px;
+  
   width:600px;
   height:600px;
 }
@@ -127,6 +127,39 @@ p{
 
   background: linear-gradient(to right, #00ffcc 0%, #ccffcc 45%);
 }
+.wave-two{
+  background: linear-gradient(to right, #00ffcc 0%, #ccffcc 45%);
+}
+.waveTwoImage{
+  width:500px;
+  height:300px;
+}
+.indian{
+  width:600px;
+  height:400px;
+}
+.oxygen{
+  width:600px;
+  height:400px;
+}
+.graph{
+  width:600px;
+  height:400px;
+}.
+.video{
+  width:700px;
+  height:400px;
+}
+.data{
+  width :500px;
+  height:500px;
+}
+.wave-two{
+  padding:100px;
+}
+.two-row{
+  margin:10px 150px 10px 150px;
+}
 .info-row{
   position: relative;
   top:20px;
@@ -139,11 +172,13 @@ p{
 .bottom-cloud{
   opacity: 0.3;
   z-index: -1;
-  top:800px;
-  position:absolute;
+
+  position:fixed;
   left:10px;
+  top:1px;
   height: 1500px;
   width: 1500px;
+
 }
 .bottom-container{
   background-color:#7952B3;
